@@ -246,9 +246,18 @@ def dean_rec(username):
 
         
     return 0
+def p_intro():
+    print("█░░░█ █▀▀ █░░ █▀▀ █▀▀█ █▀▄▀█ █▀▀ 　 ▀▀█▀▀ █▀▀█ 　 █▀▀ █░░ █▀▀█ █░░█ ")
+    print("█▄█▄█ █▀▀ █░░ █░░ █░░█ █░▀░█ █▀▀ 　 ░░█░░ █░░█ 　 ▀▀█ █░░ █▄▄█ █▄▄█ ")
+    print("░▀░▀░ ▀▀▀ ▀▀▀ ▀▀▀ ▀▀▀▀ ▀░░░▀ ▀▀▀ 　 ░░▀░░ ▀▀▀▀ 　 ▀▀▀ ▀▀▀ ▀░░▀ ▄▄▄█ ")
+    print("█░░█ █▀▀▄ ░▀░ ▀█░█▀ █▀▀ █▀▀█ █▀▀ ░▀░ ▀▀█▀▀ █░░█ ")
+    print("█░░█ █░░█ ▀█▀ ░█▄█░ █▀▀ █▄▄▀ ▀▀█ ▀█▀ ░░█░░ █▄▄█ ")
+    print("░▀▀▀ ▀░░▀ ▀▀▀ ░░▀░░ ▀▀▀ ▀░▀▀ ▀▀▀ ▀▀▀ ░░▀░░ ▄▄▄█\n\n\n")
+    return 0
 
 def main():
     #intro 
+    p_intro()
     username = input("Welcome! Please input the name of your character: \n")
     print("\nOnce upon a time, about 400 years ago, there once was a princess (you) named " + username + ".")
     print("You are starting your journey at SLAY University, which will become UT Austin in the far, far future.")
